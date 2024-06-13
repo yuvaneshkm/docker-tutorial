@@ -1,8 +1,8 @@
 # Docker Tutorial
 
-### Creating a docker image:
+### Creating / Build a docker image:
 ```bash
-docker build 
+docker build -t docker-tutorial .
 ```
 
 ### Creating a container
