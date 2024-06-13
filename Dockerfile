@@ -11,5 +11,5 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # run app.py when the container launches
-CMD ["python", "app.py"]
+CMD ["flask", "run", "--host=0.0.0.0"]
 
