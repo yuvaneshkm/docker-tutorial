@@ -56,6 +56,10 @@ docker container stats
 ```bash
 docker stop <CONTAINER ID>
 ```
+### Remove the container:
+```bash
+docker rm <CONTAINER ID>
+```
 
 
 # Commands related to Docker Hub:
