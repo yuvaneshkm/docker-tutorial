@@ -56,3 +56,22 @@ docker container stats
 ```bash
 docker stop <CONTAINER ID>
 ```
+
+
+# Commands related to Docker Hub:
+### Login:
+```bash
+docker login -u <username>
+```
+### Tag the docker image:
+```bash
+docker tag <docker-image-id> <dockerhub-username>/<docker-image-name>
+```
+### Push the docker image to the Docker Hub:
+```bash
+docker push <dockerhub-username>/<docker-image-name>:<tag>
+```
+### Pull a docker image:
+```bash
+docker pull <dockerhub-username>/<docker-image-name>
+```
